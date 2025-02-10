@@ -1,6 +1,6 @@
-import { state } from "./state.js";
-import { cellClick, backToMenu, startGame } from "./eventHandlers.js";
-import { updateBoard } from "./game.js";
+import { state } from "./script/state.js";
+import { cellClick, backToMenu, startGame } from "./script/eventHandlers.js";
+import { updateBoard } from "./script/game.js";
 
 document.getElementById("humanBtn").addEventListener("click", () => {
   state.gameMode = "human";
